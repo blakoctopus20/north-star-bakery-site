@@ -1,0 +1,36 @@
+h1{
+    color:darkblue;
+    font-size: 36px
+    font-family: Arial, sans-serif;
+    margin-bottom: 5%;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 16px;
+
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.italich2 {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: darkblue;
+    font-size: 24px;
+}
+
+.parent {
+color: rgb(20, 4, 250);
+font-family: Georgia, serif;
+border: 2px solid rgb(20, 4, 250);
+padding: 20px;
+}
