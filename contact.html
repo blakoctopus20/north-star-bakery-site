@@ -6,36 +6,49 @@
         <title>
           Contact Us | North Star Bakery
         </title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
      <body>
         <header>
             <nav aria-label="Primary Navigation">
                     <ul>
-                        <a href="index.html"><li>Home</li></a>
-                        <a href="products.html"><li>Products</li></a>
-                        <a href="contact.html" aria-current="page"><li>Contact Us</li></a>
-                        <a href="about.html"><li>About Us</li></a>
+                        <a href="index.html" class="nav-link"><li>Home</li></a>
+                        <a href="products.html" class="nav-link"><li>Products</li></a>
+                        <a href="contact.html" aria-current="page" class="nav-link"><li>Contact Us</li></a>
+                        <a href="about.html" class="nav-link"><li>About Us</li></a>
                     </ul>
             </nav> 
         </header>
         <main>
-            <p>
                 <h1>
-                    Fresh, Luxurious, Delicious
+                    Contact Us
                 </h1>
-                <h2>Made for every occassion</h2>
-            </p>
-            <figure>
-                <img src="/images/bakery-storefront_c.png" 
-                alt= "Photo of store front bread of various sizes and types on multiple shelves" style="width:500px;height:600px;"
-               height="300">
-                <figcaption>Get your brown bread mate</figcaption>
-            </figure>
-            <p>
-                This is where my text will go.
-            </p>
+                <p class="contact-text">
+                    We'd love to hear from you! Please feel free to reach out to us with any questions or feedback. We will respond to your request within 24 hours. 
+                    You can also reach us by phone or email. <br> <br>Our contact information is listed below.
+                </p>
 
+                <section class="contact-form">
+                    <h2>Contact Form</h2>
+                   <form action="/action_page.php" method="get">
+                    <label for="firstname">First name:</label>
+                    <input type="text" id="firstname" name="firstname"><br><br>
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" name="lastname"><br><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    
+                    <input type="submit" value="Submit" class="submit-button">                    
+                    </form>
+                </section>
+                <section class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>Email: info@northstarbakery.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </section>
         </main>
+
+
 <footer>
     <!--logo here with links on the right-->
 </footer>
