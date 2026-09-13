@@ -5,6 +5,16 @@ h1{
     margin-bottom: 5%;
 }
 
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 body {
     background-color: lightgray;
     font-family: Arial, sans-serif;
@@ -20,17 +30,27 @@ li {
     border-bottom: 1px solid grey;
 }
 
-.italich2 {
+.italic-h2 {
     font-style: italic;
     font-weight: bold;
-    text-decoration: underline;
     color: darkblue;
-    font-size: 24px;
+    font-size: 52px;
+    font-family: Brush Script MT, cursive, sans-serif;
 }
 
 .parent {
-color: rgb(20, 4, 250);
+color: rgb(0, 0, 0);
 font-family: Georgia, serif;
 border: 2px solid rgb(20, 4, 250);
 padding: 20px;
+}
+
+.productbutton {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
 }
