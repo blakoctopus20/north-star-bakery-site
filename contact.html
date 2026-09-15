@@ -32,11 +32,13 @@
                     <h2>Contact Form</h2>
                    <form action="/action_page.php" method="get">
                     <label for="firstname">First name:</label>
-                    <input type="text" id="firstname" name="firstname"><br><br>
+                    <input type="text" id="firstname" name="firstname" required><br><br>
                     <label for="lastname">Last name:</label>
-                    <input type="text" id="lastname" name="lastname"><br><br>
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email"><br><br>
+                    <input type="text" id="lastname" name="lastname" required><br><br>
+                    <label for="allergies">Allergies (if any):</label>
+                    <input type="text" id="allergies" name="allergies"><br><br>
+                    <label for="email">Email Address:</label required>
+                    <input type="email" id="email" name="email" required><br><br>
                     
                     <input type="submit" value="Submit" class="submit-button">                    
                     </form>
@@ -44,13 +46,23 @@
                 <section class="contact-info">
                     <h2>Contact Information</h2>
                     <p>Email: info@northstarbakery.com</p>
-                    <p>Phone: (555) 123-4567</p>
+                    <p>Phone: (919) 123-4567</p>
+                    <p>Address: 123 Main Street, <br>Durham, NC 27701, USA</p>
                 </section>
         </main>
 
 
 <footer>
     <!--logo here with links on the right-->
+    <a href="index.html"><img src="/images/logo/bakery-logo_c.png" alt="North Star Bakery Logo" style="max-height:75px;"></a>
+    <nav aria-label="Footer Navigation" class="footer-nav">
+        <ul class="footer-nav-list">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html" >About Us</a></li>
+        </ul>
+    </nav>
 </footer>
     </body>
 </html>

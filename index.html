@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
      <body>
+        <!-- header begins-->
         <header>
             <nav aria-label="Primary Navigation">
                     <ul>
@@ -19,6 +20,9 @@
                     </ul>
             </nav> 
         </header>
+
+        <!-- header ends-->
+        <!-- main content begins-->
         <main>
             <section>
             <figure>
@@ -28,26 +32,28 @@
                 <figcaption style="font-style: italic;">"Get your brown bread mate"</figcaption>
             </figure>
             </section>
-            <section class="hero-image">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4J2_yULiOGw?si=Z98RoDCYeTqeLSH3" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            </section>
+            <section class="hero-video-section">
+                <h1>Welcome to North Star Bakery</h1>
+                     <div class="video-container">
+                    <video autoplay muted loop id="bakery-video" width="100%">
+                            <source src="./video/north-star-bakery-1080p.mp4" 
+                            title="North Stary Bakery video" frameborder="0" allow="accelerometer; autoplay;"
+                            type="video/mp4"
+                            Your browser does not support the video tag. Please update your browser to view this content.>
+                    </video>
+                     </div>  
             <section>
-                <video autoplay muted loop id="myVideo">
-                    <source src="https://www.youtube.com/embed/4J2_yULiOGw?si=Z98RoDCYeTqeLSH3" 
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;" type="video/mp4">
-                </video>
+                <p>
+                    <h2 class="italic-h2">Fresh, Luxurious, Delicious</h2>
+                </p>
             </section>
-            <p>
-                <h1>Fresh, Luxurious, Delicious</h1>
-                <h2 class="italic-h2">Welcome to North Star Bakery!</h2>
-            </p>
-
+            </section>
             <div class="parent">
-                <p>No one does baking as well as we do. We have been baking for over 20 years and have perfected our craft. <br>
-                    Specialty baked goods, delectible breads, and pastries that will make your mouth water. We use only the finest ingredients to create our baked goods, <br>
-                    and we take pride in our work. Come in and see what we have to offer!
+                <p>No one does baking as well as we do. We have been baking for over 20 years and have perfected our craft. Specialty baked goods, 
+                    delectible breads, and pastries that will make your mouth water. We use only the finest ingredients to create our baked goods,
+                    and we take pride in our work. 
+                    <br>
+                <p style="text-align: center; font-weight: bold; color:rgb(131, 83, 11">Come in and see what we have to offer!</p>
                 </p>
                 <span>Our flavors are as unique as our customers. We have a wide variety of baked goods to choose from, including cakes, cookies, breads, and pastries. We also offer custom orders for special occasions. Come in and see what we have to offer!
                 </span>
@@ -59,8 +65,18 @@
             </div>
 
         </main>
+        <!-- main content ends-->
 <footer>
     <!--logo here with links on the right-->
+    <a href="index.html"><img src="/images/logo/bakery-logo_c.png" alt="North Star Bakery Logo" style="max-height:75px;"></a>
+    <nav aria-label="Footer Navigation" class="footer-nav">
+        <ul class="footer-nav-list">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html" >About Us</a></li>
+        </ul>
+    </nav>
 </footer>
     </body>
 </html>
