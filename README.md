@@ -1,5 +1,5 @@
 Pages:
-Index.heml
+Index.html
 Products.html
 Contact.html
 About.html
