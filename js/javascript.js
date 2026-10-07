@@ -1,4 +1,4 @@
-console.log(products.length);
+
 
 const products = [
   { id: "signature-loaf", 
@@ -17,3 +17,5 @@ const products = [
     category: "Cookies and Cakes"
     },
 ];
+
+console.log(products.length);
