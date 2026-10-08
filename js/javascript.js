@@ -18,4 +18,11 @@ const products = [
     },
 ];
 
+const storageKey = "northStarFavorites";
+let favorites = [];
+
+function loadFavorites() {
+    //calls storageKey, if there's nothing in it, it returns an empty list. 
+}
+
 console.log(products.length);
